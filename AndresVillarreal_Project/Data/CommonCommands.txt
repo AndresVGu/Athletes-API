@@ -1,0 +1,7 @@
+Add-Migration -Context SummerGamesContext -o Data\SGMigrations Initial
+Update-Database -Context SummerGamesContext
+
+Put at end of Up() 
+
+Add To Migration:
+ExtraMigration.Steps(migrationBuilder);
